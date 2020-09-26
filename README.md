@@ -1,1 +1,2 @@
 ### this is a test
+[使用动态组件降低表单页面迭代成本](https://github.com/MrHuangqj/diary/blob/master/%E7%AC%94%E8%AE%B0/%E4%BD%BF%E7%94%A8%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6%E9%99%8D%E4%BD%8E%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%BF%AD%E4%BB%A3%E6%88%90%E6%9C%AC.md)
