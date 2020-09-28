@@ -1,9 +1,11 @@
 # 笔记：dialog组件属性destroy-on-close
 
-| 参数               | 说明                                                                            | 类型      | 可选值 | 默认值   |
-|:----------------:|:-----------------------------------------------------------------------------:|:-------:|:---:|:-----:|
-| destroy-on-close | <span class="Apple-tab-span" style="white-space:pre"></span>关闭时销毁 Dialog 中的元素 | boolean | — | false |
+|       参数       |                                          说明                                          |  类型   | 可选值 | 默认值 |
+| :--------------: | :------------------------------------------------------------------------------------: | :-----: | :----: | :----: |
+| destroy-on-close | <span class="Apple-tab-span" style="white-space:pre"></span>关闭时销毁 Dialog 中的元素 | boolean |   —    | false  |
+
 这个属性实际上是改变绑定的key值，利用了Vue在patch过程中比对key值来把旧的元素删除掉
+
 具体做法
 1. 首先在data中定义key
 2. 在template模板中绑定key值
