@@ -4,7 +4,7 @@
 | :--------------: | :------------------------------------------------------------------------------------: | :-----: | :----: | :----: |
 | destroy-on-close | <span class="Apple-tab-span" style="white-space:pre"></span>关闭时销毁 Dialog 中的元素 | boolean |   —    | false  |
 
-这个属性实际上是改变绑定的key值，利用了Vue在patch过程中比对key值来把旧的元素删除掉
+这里的情况比较特殊，因为element的dialog组件的隐藏与展示是是使用了v-show来做的，所以组件隐藏只是单纯的将display：none，里面的元素是不会被销毁的，但是它没有用v-if去做销毁而是使用了一个很有意思的方法，这个destroy-on-close属性实际上是改变绑定的key值，利用了Vue在patch过程中比对key值来把旧的元素删除掉。至于为什么不用v-if，我还没想通。
 
 具体做法
 1. 首先在data中定义key
