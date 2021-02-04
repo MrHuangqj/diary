@@ -1,4 +1,9 @@
 # 目录
+
+## 基础
+
+[手写promise](https://github.com/MrHuangqj/diary/blob/master/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/%E6%89%8B%E5%86%99promise.md)
+
 ## element组件库学习
 [dialog组件属性destroy-on-close](https://github.com/MrHuangqj/diary/blob/master/%E7%AC%94%E8%AE%B0/element%E7%BB%84%E4%BB%B6%E5%BA%93%E7%AC%94%E8%AE%B0/%E7%AC%94%E8%AE%B0%EF%BC%9Adialog%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7destroy-on-close.md)
 ## 项目优化
