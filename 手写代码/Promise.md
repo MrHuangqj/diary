@@ -1,4 +1,5 @@
 
+```
 const PENDING = 'pending'; 
 const RESOLVED = "resolved"; 
 const REJECTED = 'rejected'; 
@@ -83,3 +84,4 @@ new myPromise((resolve, reject) => {
   console.log(1);
   resolve(2)
 }).then(res => { console.log(res) })
+```
